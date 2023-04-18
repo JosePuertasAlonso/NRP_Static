@@ -1,0 +1,61 @@
+{
+    "Requisitos": [
+        {
+            "Descripcion": "Requisito 0"
+        },
+        {
+            "Descripcion": "Requisito 1"
+        },
+        {
+            "Descripcion": "Requisito 2"
+        },
+        {
+            "Descripcion": "Requisito 3"
+        }
+    ], 
+    "Stakeholder":[
+        {
+            "Nombre": "Stakeholder 0",
+            "Recomendaciones_S": {
+                "Stakeholder_0": "none",
+                "Stakeholder_1": true,
+                "Stakeholder_2": true,
+                "Stakeholder_3": false
+
+            },
+            "Recomendaciones_R": [true,true,false]
+        },
+        {
+            "Nombre": "Stakeholder 1",
+            "Recomendaciones_S": {
+                "Stakeholder_0": false,
+                "Stakeholder_1": "none",
+                "Stakeholder_2": true,
+                "Stakeholder_3": true
+
+            },
+            "Recomendaciones_R": [false,false,true]
+        },
+        {
+            "Nombre": "Stakeholder 2",
+            "Recomendaciones_S":{
+                "Stakeholder_0": false,
+                "Stakeholder_1": false,
+                "Stakeholder_2": "none",
+                "Stakeholder_3": true
+
+            },
+            "Recomendaciones_R": [true,false,false]
+        },
+        {
+            "Nombre": "Stakeholder 3",
+            "Recomendaciones_S": {
+                "Stakeholder_0": true,
+                "Stakeholder_1": false,
+                "Stakeholder_2": false,
+                "Stakeholder_3": "none"
+            },
+            "Recomendaciones_R": [false,true,true]
+        }
+    ]
+}
