@@ -15,7 +15,7 @@
     ], 
     "Stakeholder":[
         {
-            "Nombre": "Stakeholder 0",
+            "Nombre": "Stakeholder_0",
             "Recomendaciones_S": {
                 "Stakeholder_0": "none",
                 "Stakeholder_1": true,
@@ -26,7 +26,7 @@
             "Recomendaciones_R": [true,true,false]
         },
         {
-            "Nombre": "Stakeholder 1",
+            "Nombre": "Stakeholder_1",
             "Recomendaciones_S": {
                 "Stakeholder_0": false,
                 "Stakeholder_1": "none",
@@ -37,7 +37,7 @@
             "Recomendaciones_R": [false,false,true]
         },
         {
-            "Nombre": "Stakeholder 2",
+            "Nombre": "Stakeholder_2",
             "Recomendaciones_S":{
                 "Stakeholder_0": false,
                 "Stakeholder_1": false,
@@ -48,7 +48,7 @@
             "Recomendaciones_R": [true,false,false]
         },
         {
-            "Nombre": "Stakeholder 3",
+            "Nombre": "Stakeholder_3",
             "Recomendaciones_S": {
                 "Stakeholder_0": true,
                 "Stakeholder_1": false,
