@@ -11,6 +11,9 @@
         },
         {
             "Descripcion": "Requisito_3"
+        },
+        {
+            "Descripcion": "Requisito_4"
         }
     ], 
     "Stakeholder":[
@@ -27,7 +30,8 @@
                 "Requisito_0": true,
                 "Requisito_1": true,
                 "Requisito_2": false,
-                "Requisito_3": false
+                "Requisito_3": false,
+                "Requisito_4": true
             }
         },
         {
@@ -43,7 +47,8 @@
                 "Requisito_0": true,
                 "Requisito_1": false,
                 "Requisito_2": true,
-                "Requisito_3": true
+                "Requisito_3": true,
+                "Requisito_4": false
             }
         },
         {
@@ -59,7 +64,8 @@
                 "Requisito_0": false,
                 "Requisito_1": true,
                 "Requisito_2": true,
-                "Requisito_3": false
+                "Requisito_3": false,
+                "Requisito_4": true
             }
         },
         {
@@ -74,7 +80,8 @@
                 "Requisito_0": false,
                 "Requisito_1": false,
                 "Requisito_2": true,
-                "Requisito_3": true
+                "Requisito_3": true,
+                "Requisito_4": false
             }
         }
     ]

@@ -15,16 +15,19 @@ req_array = []
 
 for i in range(len(data['Stakeholder'])):
     st_array.append(st.Stakeholder(data['Stakeholder'][i]['Nombre']))
-    st.Stakeholder.calcularImportancia(st_array[i])
+    st.Stakeholder.calcular_importancia(st_array[i])
 
 for i in range(len(data['Requisitos'])):
     req_array.append(req.Requisito(data['Requisitos'][i]['Descripcion']))
 
-req.Requisito.calcularsatisfaccion(st_array, req_array)
+req.Requisito.calcular_satisfaccion(st_array, req_array)
 
 
 print("DATOS RECOGIDOS\n")
+print("REQUISITOS OBTENIDOS DEL ARCHIVO\n")
 print(df_requisitos)
+
+print("STAKEHOLDER OBTENIDOS DEL ARCHIVO\n")
 print(df_stakeholders)
 
 print("\nIMPORTANCIA DE CADA STAKEHOLDER")
@@ -35,5 +38,6 @@ print("\nSATISFACCION DE CADA REQUISITO")
 for i in range(len(req_array)):
     print(req_array[i].descripcion + " -> " + str(req_array[i].satisfaccion))
 
+print("\nSPRINTS ALGORITMO VORAZ")
 
-
+req.Requisito.calcular_greedy(req_array, limite)
