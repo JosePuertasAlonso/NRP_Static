@@ -8,7 +8,7 @@ class Stakeholder:
     def __init__(self, nombre):
         self.nombre = nombre
     
-    def calcularImportancia(st):
+    def calcular_importancia(st):
 
         with open('datos.json') as file:
             data = json.load(file)
