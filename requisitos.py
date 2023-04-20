@@ -19,18 +19,19 @@ class Requisito:
     def calcular_greedy(req, limite):
         cur_limit = 0
         sprints = {}
+        sprint_str="Sprint "
         req.sort(key=lambda x: x.satisfaccion, reverse=True)
         
         cont = 1
-        sprints["Sprint " + str(cont)] = []
+        sprints[sprint_str + str(cont)] = []
         for i in range(len(req)):
             if cur_limit < limite:
-                sprints["Sprint " + str(cont)].append(req[i])  
+                sprints[sprint_str + str(cont)].append(req[i])  
             else:
                 cont += 1
                 cur_limit = 0
-                sprints["Sprint " + str(cont)] = [req[i]]
-                
+                sprints[sprint_str + str(cont)] = [req[i]]
+
             cur_limit += req[i].coste
  
 
