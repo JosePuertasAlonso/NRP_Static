@@ -1,16 +1,16 @@
 {
     "Requisitos": [
         {
-            "Descripcion": "Requisito 0"
+            "Descripcion": "Requisito_0"
         },
         {
-            "Descripcion": "Requisito 1"
+            "Descripcion": "Requisito_1"
         },
         {
-            "Descripcion": "Requisito 2"
+            "Descripcion": "Requisito_2"
         },
         {
-            "Descripcion": "Requisito 3"
+            "Descripcion": "Requisito_3"
         }
     ], 
     "Stakeholder":[
@@ -23,7 +23,12 @@
                 "Stakeholder_3": false
 
             },
-            "Recomendaciones_R": [true,true,false]
+            "Recomendaciones_R":{
+                "Requisito_0": true,
+                "Requisito_1": true,
+                "Requisito_2": false,
+                "Requisito_3": false
+            }
         },
         {
             "Nombre": "Stakeholder_1",
@@ -34,7 +39,12 @@
                 "Stakeholder_3": true
 
             },
-            "Recomendaciones_R": [false,false,true]
+            "Recomendaciones_R": {
+                "Requisito_0": true,
+                "Requisito_1": false,
+                "Requisito_2": true,
+                "Requisito_3": true
+            }
         },
         {
             "Nombre": "Stakeholder_2",
@@ -45,7 +55,12 @@
                 "Stakeholder_3": true
 
             },
-            "Recomendaciones_R": [true,false,false]
+            "Recomendaciones_R": {
+                "Requisito_0": false,
+                "Requisito_1": true,
+                "Requisito_2": true,
+                "Requisito_3": false
+            }
         },
         {
             "Nombre": "Stakeholder_3",
@@ -55,7 +70,12 @@
                 "Stakeholder_2": false,
                 "Stakeholder_3": "none"
             },
-            "Recomendaciones_R": [false,true,true]
+            "Recomendaciones_R": {
+                "Requisito_0": false,
+                "Requisito_1": false,
+                "Requisito_2": true,
+                "Requisito_3": true
+            }
         }
     ]
 }
